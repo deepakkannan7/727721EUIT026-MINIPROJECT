@@ -1,0 +1,91 @@
+.hometxt
+{
+    color:aqua;
+    margin-left: 2px;
+    font-size: 20px;
+}
+.cattxt
+{
+    margin-left: 10px;
+    color:aqua;
+    font-size: 20px;
+}
+.Prodtxt
+{
+    margin-left: 10px;
+    color:aqua;
+    font-size: 20px;
+}
+.Carttxt
+{
+    margin-left: 10px;
+    color:aqua;
+    font-size: 20px;
+}
+
+.revtxt
+{
+    margin-left: 10px;
+    color:aqua;
+    font-size: 20px;
+}
+
+.contxt
+{
+    margin-left: 10px;
+    color:aqua;
+    font-size: 20px;
+}
+
+
+.hic
+{
+    margin-left: 80px;
+}
+
+.mic
+{
+    margin-left: 50px;
+}
+
+.catic
+{
+    margin-left: 40px;
+}
+
+.Prodic
+{
+    margin-left: 40px;
+}
+.cartic
+{
+    margin-left: 40px;
+}
+.revic
+{
+    margin-left: 40px;
+}
+.conic
+{
+    margin-left: 40px; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    height:500px;
+    width:100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

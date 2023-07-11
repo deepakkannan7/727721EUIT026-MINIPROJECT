@@ -1,0 +1,118 @@
+.utot
+{
+  height:550px;
+  width:900px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  margin-top: 20px;
+  margin-left: 300px;
+  background-color:rgba(129, 123, 123, 0);
+  border:8px solid rgb(255, 255, 255);
+  border-radius:20px;
+}
+.uh{
+    text-shadow: 2px 2px 5px rgb(0, 221, 255);
+    color:rgb(254, 62, 62);
+}
+.uin{
+    border-radius:0px;
+    height:25px;
+    border: 1px solid #555;
+    width:180px;
+    /* border:1px solid black; */
+}
+.ubg{
+   background-image:url("https://static.vecteezy.com/system/resources/previews/006/469/232/original/abstract-white-background-with-halftone-texture-free-vector.jpg");
+   background-size:cover;
+   /* background-color:rgb(255, 255, 255); */
+   height:102.7vh;
+   margin-top:-20px;
+}
+.uside
+{
+  height:550px;
+  width:540px;
+  
+  background-repeat: no-repeat;
+  float:left;
+}
+.uimg
+{
+  height:100%;
+  width:100%;
+  border-bottom-left-radius: 18px;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-image: url("https://www.borivalibaniya.com/wp-content/uploads/2021/05/buy-online-groceries-online-grocery-store-in-borivali-borivali-baniya-order-grocery-online-with-smartphone-pay-with-credit-card.jpg");
+}
+.uname
+{
+  margin-top: 30px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.uspname
+{
+  margin-top: 20px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.uemail
+{
+  margin-top: 25px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.upassword
+{
+  margin-top: 25px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.ufn{
+    margin-left:-100px;
+}
+.uln{
+    margin-left:-100px;
+}
+.upswrd{
+    margin-left:-110px;
+}
+.uemail{
+    margin-left:-96px;
+}
+.uph{
+    margin-left:-123px;
+}
+.ucontact
+{
+  margin-top: 25px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.usubmit
+{
+  margin-top: 30px;
+  margin-right: 50px;
+}
+.ubutton{
+  height:35px;
+  width:80px;
+  color:white;
+  border:0px;
+  background-color:#4CAF50;
+  font-weight: bold;
+}
+.ubutton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.uform
+{
+  margin-right: -50px;
+}
+/* .afterimg{
+    background-image:url('https://pixlok.com/wp-content/uploads/2021/03/default-user-profile-picture.jpg');
+    height:10px;
+    width:10px;
+} */
