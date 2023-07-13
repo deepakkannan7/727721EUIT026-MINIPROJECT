@@ -1,0 +1,194 @@
+.tot
+{
+  height:555px;
+  width:900px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.236);
+  margin-left: 250px;
+  border-radius: 10px;
+  border:8px solid white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.side
+{
+  height:550px;
+  width:540px;
+  /* border:5px solid black; */
+  float:left;
+}
+.img
+{
+  height:100.5%;
+  width:100%;
+  background-repeat: no-repeat;
+  border:2px solid white;
+  background-image: url("https://www.blinkco.io/wp-content/uploads/2022/02/grocery-shopping-5987164_1280.jpg");
+  background-size:cover;
+  float:left;
+}
+.name
+{
+  margin-top: 30px;
+  margin-right: 50px;
+ 
+  font-weight: bold;
+}
+.spname
+{
+  margin-top: 20px;
+  margin-right: 50px;
+ 
+  font-weight: bold;
+}
+.email
+{
+  margin-top: 25px;
+  margin-right: 50px;
+
+  font-weight: bold;
+}
+.password
+{
+  margin-top: 25px;
+  margin-right: 50px;
+
+  font-weight: bold;
+}
+.contact
+{
+  margin-top: 25px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.Address
+{
+  margin-top: 25px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+.submit
+{
+  margin-top: 30px;
+  margin-right: 50px;
+  color:white;
+}
+/* button{
+  height:40px;
+  width:80px;
+  font-weight: bold;
+} */
+.form
+{
+  margin-right: -50px;
+}
+.submitbut
+{
+  height:40px;
+  width:80px;
+  font-weight: bold;
+  border: 0px;
+  color:white;
+  background-color:#15920c;
+  
+}
+
+.submitbut:hover
+{
+  height:40px;
+  width:80px;
+  font-weight: bold;
+  color:red;
+  background-color: #15920c;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 80px;
+}
+.namebox
+{
+   
+    /* border-radius: 10px; */
+    height:20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.spnamebox
+{
+  
+  /* border-radius: 10px; */
+  height:20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.emailbox
+{
+  
+  /* border-radius: 10px; */
+  height:20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.passbox
+{
+
+/* border-radius: 10px; */
+height:20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contbox
+{
+
+/* border-radius: 10px; */
+height:20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.addbox
+{
+
+/* border-radius: 10px; */
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.venhead{
+  color:rgb(189, 220, 14);
+  text-decoration:underline;
+  text-shadow: 2px 2px rgb(246, 66, 66);
+}
+
+.name1
+{
+  margin-left: -110px;
+}
+
+.spname1
+{
+  margin-left: -78px;
+}
+
+.email1
+{
+  margin-left: -120px;
+}
+
+.password1
+{
+  margin-left: -90px;
+}
+
+.contact1
+{
+  margin-left: -40px;
+}
+
+.Address1
+{
+  margin-left: -90px;
+}
+.bdy
+{
+  margin-top: -22px;
+  height:100vh;
+  background-image:url('https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+

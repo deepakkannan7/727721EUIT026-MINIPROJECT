@@ -1,0 +1,1123 @@
+.hometxt
+{
+    color:black;
+    margin-left: 2px;
+    font-size: 20px;
+    /* margin-top: 60px; */
+    font-weight: bold;
+   
+}
+/* .hometxt:hover{
+    color:rgb(121, 225, 234);
+} */
+
+.homet
+{
+    margin-top: -20px;
+}
+
+.dropdown
+{
+    margin-top: -20px;
+
+}
+
+
+.Prot
+{
+    margin-top: -20px;
+}
+
+
+.cartt
+{
+    margin-top: -20px;
+}
+
+.revt
+{
+    margin-top: -20px;
+}
+.cattxt
+{
+    margin-left: 10px;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .cattxt:hover{
+
+    color:rgb(121, 225, 234);
+} */
+
+.Prodtxt
+{
+    margin-left: 10px;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .Prodtxt:hover{
+
+    color:rgb(121, 225, 234);
+} */
+
+.Carttxt
+{
+    margin-left: 10px;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .Carttxt:hover{
+    color:rgb(121, 225, 234);
+
+} */
+
+.revtxt
+{
+    margin-left: 10px;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .revtxt:hover{
+
+    color:rgb(121, 225, 234);
+} */
+
+.contxt
+{
+    margin-left: 10px;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .contxt:hover{
+    color:rgb(121, 225, 234);
+
+} */
+
+
+.hic
+{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+
+
+.mic
+{
+    margin-left: 50px;
+}
+
+.catic
+{
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+.Prodic
+{
+    margin-left: 40px;
+    margin-top: -20px;
+}
+.cartic
+{
+    margin-left: 40px;
+    margin-top: -20px;
+}
+.revic
+{
+    margin-left: 40px;
+    margin-top: -16px;
+}
+.conic
+{
+    margin-left: 40px; 
+}
+
+/* .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    height:500px;
+    width:100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+  #dt
+  {
+    color:black;
+    font-size: 20px;
+  }
+.sc1
+{
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.search1
+{
+    height:30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: -50px;
+    /* padding-top:-50px; */
+}
+/* .homebutton1
+{
+    margin-right: -3px;
+    margin-top: -50px;
+    margin-left: 280px;
+    height:30px;
+    width:70px;
+    border-radius:10px;
+    color:blue;
+} */
+
+.fa
+{
+    height:380px;
+    width:1200px;
+    /* border:1px solid black; */
+    background-color: rgba(133, 211, 163, 0.579);
+    margin-left: 90px;
+}
+
+.frefru
+{
+    position: absolute;
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 70px;
+    /* background-image: url('https://hips.hearstapps.com/hmg-prod/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg?crop=0.982xw:0.736xh;0,0.189xh&resize=1200:*'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    float:left;
+}
+.img
+{
+    height:200px;
+    width:300px;
+}
+
+.ff
+{
+    margin-top: -5px;
+}
+
+.min1
+{
+    margin-top: -15px;
+}
+
+.freveg
+{
+    position: absolute;
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 600px;
+    /* background-image: url('https://c8.alamy.com/comp/2BJ1YFA/fresh-vegetables-and-fruits-background-2BJ1YFA.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:right;
+    margin-left: 450px;
+}
+
+.img1
+{
+    height:200px;
+    width:300px;
+}
+
+.fv
+{
+    margin-top: -15px;
+}
+.fav
+{
+    color:rgb(19, 133, 8);
+    font-weight: bold;
+}
+
+.min2
+{
+    margin-top: -15px;
+}
+
+
+
+
+.Cuts
+{
+    position: absolute;
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    /* margin-left: 600px; */
+    /* background-image: url('https://c8.alamy.com/comp/2BJ1YFA/fresh-vegetables-and-fruits-background-2BJ1YFA.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left;
+    margin-left: 830px;
+}
+
+.img2
+{
+    height:200px;
+    width:300px;
+}
+
+.fc
+{
+    margin-top: -15px;
+}
+
+.min3
+{
+    margin-top: -15px;
+} 
+
+
+.bev
+{
+    height:380px;
+    width:1200px;
+    /* border:1px solid black; */
+    background-color: rgba(210, 166, 84, 0.695);
+    margin-left: 90px;
+    margin-top: 0px;
+}
+
+.beva
+{
+    color:rgba(248, 0, 198, 0.915);
+}
+
+.tc
+{
+    position: absolute;
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 70px;
+    /* background-image: url('https://hips.hearstapps.com/hmg-prod/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg?crop=0.982xw:0.736xh;0,0.189xh&resize=1200:*'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left;
+}
+.tcimg
+{
+    height:200px;
+    width:300px;
+}
+
+.tc1
+{
+    margin-top: -188px;
+}
+
+.tcmin
+{
+    margin-top: -15px;
+}
+
+
+
+.juice
+{
+    position: absolute;
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 600px;
+    /* background-image: url('https://c8.alamy.com/comp/2BJ1YFA/fresh-vegetables-and-fruits-background-2BJ1YFA.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:right;
+    margin-left: 450px;
+}
+
+.juiimg
+{
+    height:200px;
+    width:300px;
+}
+
+.jui1
+{
+    margin-top: -10px;
+}
+
+.juimin
+{
+    margin-top: -15px;
+}
+
+
+.hea
+{
+    position: absolute;
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    /* margin-left: 600px; */
+    /* background-image: url('https://c8.alamy.com/comp/2BJ1YFA/fresh-vegetables-and-fruits-background-2BJ1YFA.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left;
+    margin-left: 830px;
+}
+
+.heaimg
+{
+    height:200px;
+    width:300px;
+}
+
+.hea1
+{
+    margin-top: -15px;
+}
+
+.heamin
+{
+    margin-top: -15px;
+} 
+
+
+.emf
+{
+    height:380px;
+    width:1200px;
+    /* border:1px solid black; */
+    background-color:rgba(205, 87, 87, 0.707);
+    margin-left: 90px;
+    margin-top: 0px;
+}
+.eamaf
+{
+    color:rgb(216, 237, 27);
+}
+
+.egg
+{
+    position: absolute;
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 70px;
+    /* background-image: url('https://hips.hearstapps.com/hmg-prod/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg?crop=0.982xw:0.736xh;0,0.189xh&resize=1200:*'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left;
+}
+.eggimg
+{
+    height:200px;
+    width:300px;
+}
+
+.egg1
+{
+    margin-top: -188px;
+}
+
+.eggmin
+{
+    margin-top: -15px;
+}
+
+.chick
+{
+    position: absolute;
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 600px;
+    /* background-image: url('https://c8.alamy.com/comp/2BJ1YFA/fresh-vegetables-and-fruits-background-2BJ1YFA.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:right;
+    margin-left: 450px;
+}
+
+.chickimg
+{
+    height:200px;
+    width:300px;
+}
+
+.chick1
+{
+    margin-top: -15px;
+}
+
+.chickmin
+{
+    margin-top: -15px;
+}
+
+
+.fish
+{
+    position: absolute;
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    /* margin-left: 600px; */
+    /* background-image: url('https://c8.alamy.com/comp/2BJ1YFA/fresh-vegetables-and-fruits-background-2BJ1YFA.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left;
+    margin-left: 830px;
+}
+
+.fishimg
+{
+    height:200px;
+    width:300px;
+}
+
+.fish1
+{
+    margin-top: -15px;
+}
+
+.fishmin
+{
+    margin-top: -15px;
+} 
+
+.wel
+{
+    color:rgb(43, 0, 255);
+}
+
+.see
+{
+    color:rgb(205, 43, 226);
+    margin-left: 20px;
+
+}
+
+/* .Hbdy
+{
+    height:240vh;
+    background-image:linear-gradient(to bottom right, rgba(156, 38, 189, 0.477) 0,rgb(192, 255, 255),rgb(119, 128, 0)) ;
+} */
+/* a:hover, .dropdown:hover .hmtxt{
+     background-color: #3e3e8e;
+} */
+
+
+/* .hmtxt {
+    background-color:rgb(0, 255, 17);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 16px;
+    margin-left: -15px;
+    font-size: 20px;
+    border: 0.5px solid black;
+    border:none;
+    cursor: pointer;
+  }
+
+  .homet:hover .hometxt {
+    background-color: #1e0ed0f9;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e7e7e7;
+  
+    height:430px;
+    width:100px;
+    margin-left: -52px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(28, 220, 214);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #d90fb469}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+
+  
+  
+  /* .dropdown:hover .hmtxt {
+    background-color: #1e0ed0f9;
+  }
+
+  .cartt:hover .Carttxt {
+    background-color: #1e0ed0f9;
+  }
+
+
+  .Prot:hover .Prodtxt {
+    background-color: #1e0ed0f9;
+  }
+
+
+  .revt:hover .revtxt {
+    background-color: #1e0ed0f9;
+  } */
+
+
+
+
+
+
+  /* .cattxt {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  } */
+
+  /* .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content1 a:hover {background-color: #f1f1f1}
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  
+  .dropdown1:hover .cattxt {
+    background-color: #3e8e41;
+  } */
+
+
+  .foo
+  {
+    height:200px;
+    width:177vh;
+    /* border:1px solid black; */
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color:black;
+  }
+
+  .sr
+  {
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    /* background-color: rgba(128, 0, 92, 0.397); */
+    margin-left: 50px;
+    float:left;
+  }
+
+  .sr1
+  {
+    color:white;
+  }
+
+  .abt
+  {
+    color:white;
+  }
+
+  .cont1
+  {
+    color:white;
+  }
+
+
+  #suoo
+  {
+    color:white;
+  }
+  .About
+  {
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    /* background-color: rgba(128, 0, 92, 0.397); */
+    margin-left: 100px;
+    float:left;
+  }
+
+  .Contac
+  {
+    height:200px;
+    width:300px;
+    border:1px solid black;
+    /* background-color: rgba(128, 0, 92, 0.397); */
+    margin-left: 100px;
+    float:left;
+  }
+
+  .inst
+  {
+    height:20px;
+    width:30px;
+    /* border:0px solid black;
+    margin-left: 50px;
+    margin-top: 20px;
+    float:left; */
+  }
+
+  .instimg
+  {
+       height:20x;
+       /* border:1px solid black; */
+       margin-left: 100px;
+       margin-top: 10px;
+       border-radius: 10px;
+       width:30px;
+       float: left;
+  }
+
+
+  .emailimg{
+
+    height:28px;
+    width:30px;
+  }
+ .emailimg
+  {
+
+    height:20x;
+    /* border:1px solid black; */
+    margin-left: 140px;
+    border-radius: 10px;
+    margin-top: -35px;
+    width:30px;
+    float: left;
+  }
+
+  .face
+  {
+    
+    height:20px;
+    width:30px;
+  }
+
+  .faceimg
+  {
+
+    height:18x;
+    /* border:1px solid black; */
+    margin-left: 180px;
+    border-radius: 10px;
+    margin-top: -35px;
+    width:30px;
+    float: left;
+  }
+
+  .slide-container
+  {
+    width:1200px;
+    margin-left: 90px;
+    background-size: 100% 100%;
+  }
+
+  
+.Catot
+{
+    height:2200px;
+    width:1200px;
+    margin-left: 100px;
+    border:2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Cafruits
+{
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+}
+
+.Caimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cafr
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.Caveg
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.Vegimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cavg
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.Cafoo
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.fooimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cafg
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cabev
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.bevimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cabv
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cahk
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.hkimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cahok
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+.Cabs
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.bsimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cabes
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Caeggs
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.mfimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Camf
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cabk
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.bkimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cabks
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+
+.Cadia
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.diaimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cadiary
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.Caba
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.baimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cababy
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cagour
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.gourimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cagourment
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cahh
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.hhimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cahouse
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.frui{
+    margin-left: -60px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: -20px;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 50px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #810707;
+  }
+  
+  .active {
+    background-color: #6a04aa;
+  }
+
+  .cic1
+  {
+    height:4px;
+    width:10px;
+  }
