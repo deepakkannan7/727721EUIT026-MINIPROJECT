@@ -1,0 +1,596 @@
+ /* .Footot
+{
+    height:1700px;
+    width:1200px;
+    margin-left: 100px;
+    border:2px solid black;
+    margin-top:20px;
+    background-color: rgba(0, 255, 255, 0.56);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.whe
+{
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+}
+
+.wheatimg
+{
+    height:300px;
+    width:500px;
+}
+
+.wheat
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.mill
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.millimg
+{
+    height:300px;
+    width:500px;
+}
+
+.millets
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.oat
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.oatimg
+{
+    height:300px;
+    width:500px;
+}
+
+.oats
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.brow
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.browimg
+{
+    height:300px;
+    width:500px;
+}
+
+.brown
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.ry
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.ryimg
+{
+    height:300px;
+    width:500px;
+}
+
+.rye
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+.bar
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.barimg
+{
+    height:300px;
+    width:500px;
+}
+
+.barley
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Caeggs
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.mfimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Camf
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cabk
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.bkimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cabks
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+
+.Cadia
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.diaimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cadiary
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.Caba
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.baimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cababy
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cagour
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.gourimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cagourment
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cahh
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.hhimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cahouse
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.frui{
+    margin-left: -60px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  margin-top: -28px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 50px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #17bbc4;
+}
+
+.active {
+  background-color:  #770c9d;
+}
+
+  .cic1
+  {
+    height:4px;
+    width:10px;
+  }
+
+  .cart
+  {
+    height:50px;
+    width:200px;
+    background-color: rgba(0, 128, 0, 0.56);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .frutxt
+  {
+    color:blue;
+    text-decoration: underline;
+    
+  }
+
+
+  .wherice
+  {
+    color:red;
+    font-weight: bold;
+  }
+  .millprice
+  {
+    color:red;
+    font-weight: bold;
+
+  }
+
+
+  .oatprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+  
+
+  .browprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+
+  .ryprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+
+  .barprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+
+  .wheat
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .millets
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .oats
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .brown
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .rye
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .barley
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  } */
+
+
+
+
+  .fooNavbarItems
+  {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:0px 35px;
+      box-shadow:0 5px 15px 0 rgba(0,0,0,.25);
+      width:95%;
+      height:50px;
+      border-radius: 13px;
+      background-color: red;
+      position: fixed;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+  }
+  
+  
+  
+  .foonavbar-logo
+  {
+      color:aqua;
+      font-size:2rem;
+      cursor:pointer;
+  }
+  
+  .foonav-menu
+  {
+      display: grid;
+      grid-template-columns: repeat(6,auto);
+      grid-gap:10px;
+      list-style: none;
+      align-items: center;
+      margin-right: 400px;
+  }
+  
+  .fooHome
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  }
+  .fooCategory
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem ;
+      white-space: nowrap;
+  }
+  
+  
+  
+  
+  .fooProduct
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  }
+  .fooCart
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  }
+  .fooFeedback
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  
+  }
+  
+  .fooHome:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .fooCategory:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .fooProduct:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .fooCart:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .fooFeedback:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .foohbtn
+  {
+      padding: 0.5rem 1rem;
+      white-space: nowrap;
+      border-radius: 0.3rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border:none;
+      cursor:pointer;
+  }
+  
+  .foohbtn:hover{
+      background-color: #151516;
+      color:white;
+      
+  }
+  
+  .fooprobox
+  {
+      margin-top: 20px;
+  }

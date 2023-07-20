@@ -1,0 +1,669 @@
+ /* .Catot
+{
+    height:2200px;
+    width:1200px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: aqua;
+    border:2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Cafruits
+{
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+}
+
+.Caimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cafr
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.Caveg
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.Vegimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cavg
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.Cafoo
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.fooimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cafg
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cabev
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.bevimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cabv
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cahk
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.hkimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cahok
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+.Cabs
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.bsimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cabes
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Caeggs
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.mfimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Camf
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cabk
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.bkimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cabks
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+
+.Cadia
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.diaimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cadiary
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.Caba
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.baimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cababy
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cagour
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.gourimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cagourment
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.Cahh
+{
+
+    height:300px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+
+}
+
+.hhimg
+{
+    height:300px;
+    width:500px;
+}
+
+.Cahouse
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.frui{
+    margin-left: -60px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: -28px;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 50px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:#17bbc4;
+  }
+  
+  .active {
+    background-color: #770c9d;
+  }
+
+  /* .cic1
+  {
+    height:4px;
+    width:10px;
+  } */ 
+
+
+
+  .catNavbarItems
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 35px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,.25);
+    width:95%;
+    height:50px;
+    border-radius: 13px;
+    background-color: red;
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+.catnavbar-logo
+{
+    color:aqua;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+.catnav-menu
+{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap:10px;
+    list-style: none;
+    align-items: center;
+    color: balck;
+    margin-right: 400px;
+}
+
+.catHome
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.catCategory
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem ;
+    white-space: nowrap;
+}
+
+
+
+
+.catProduct
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.catCart
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.catFeedback
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+
+}
+
+.catHome:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.catCategory:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.catProduct:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.catCart:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.catFeedback:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.cathbtn
+{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+}
+
+.cathbtn:hover{
+    background-color: #151516;
+    color:white;
+    
+}
+
+.catetot
+{
+    height:950px;
+    width:1200px;
+    border:1px solid black; 
+    background-color: gray;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.catefru
+{
+    height:250px;
+    width:300px;
+    margin-left: 60px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: aqua;
+    float:left;
+}
+
+.catefruimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.cateveg
+{
+    height:250px;
+    width:300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: aqua;
+    float:left;
+}
+
+.catevegimg
+{
+    height:200px;
+    width:300px;
+}
+    
+
+
+.catedai
+{
+    height:250px;
+    width:300px;
+    margin-left:70px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: aqua;
+ 
+    float:left;
+}
+
+.catedaiimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.catebak
+{
+    height:250px;
+    width:300px;
+    margin-left: 60px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: aqua;
+    float:left;
+}
+
+.catebakimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.catefg
+{
+    height:250px;
+    width:300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: aqua;
+    float:left;
+}
+
+.catefgimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.cateCs
+{
+    height:250px;
+    width:300px;
+    margin-left:70px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: aqua;
+    float:left;
+}
+
+.cateCsimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+
+.catemeat
+{
+    height:250px;
+    width:300px;
+    margin-left: 60px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: aqua;
+    float:left;
+}
+
+.catemeatimg
+{
+    height:200px;
+    width:300px;
+}
+
+.catehd
+{
+    height:250px;
+    width:300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: aqua;
+    float:left;
+}
+
+.catehdimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.caterice
+{
+    height:250px;
+    width:300px;
+    margin-left:70px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: aqua;
+ 
+    float:left;
+}
+
+.catericeimg
+{
+    height:200px;
+    width:300px;
+}
+

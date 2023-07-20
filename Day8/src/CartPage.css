@@ -1,0 +1,257 @@
+/* .cart-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .cart-item {
+    margin: 10px;
+    text-align: center;
+  }
+
+  #row {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #block {
+    width: 100px;
+    float: left;
+    margin-left: 50px;
+  } */
+
+  /* .tt
+  {
+    margin-left: 80px;
+  } */
+
+  /* .bt
+  {
+    margin-top: 60px;
+    margin-left: 80px;
+  } */
+  #row {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+#nameblock
+{
+    margin-left: -1100px;
+    margin-top: 150px;
+}
+.name
+{
+    margin-top: -40px;
+}
+#imgblock
+{
+    margin-top: -80px;
+    margin-left: -800px;
+    margin-bottom: -290px;
+}
+
+#priceblock
+{
+    margin-top: 30px;
+    margin-left: -450px;
+}
+
+
+#remblock
+{
+    margin-top: -42px;
+    margin-left: -190px;
+    
+   
+}
+
+.bt
+{
+    height:30px;
+    background-color: red;
+    margin-left:480px;
+}
+
+.tt
+{
+    font-size: 18px;
+    margin-top: 200px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tq
+{
+
+    margin-top: -40px;
+    font-weight: bold;
+}
+
+.tp
+{
+    margin-top: 80px;
+    font-weight: bold;
+    color:blueviolet;
+    font-size: 20px;
+
+}
+
+.probutton
+{
+    color:blue;
+    background-color: rgba(12, 179, 12, 0.951);
+    font-weight: bold;
+    height:50px;
+}
+
+.empty
+{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(161, 13, 166);
+    text-decoration:line-through;
+}
+
+  .carNavbarItems
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 35px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,.25);
+    width:95%;
+    height:50px;
+    border-radius: 13px;
+    background-color: red;
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+
+.carnavbar-logo
+{
+    color:aqua;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+.carnav-menu
+{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap:10px;
+    list-style: none;
+    align-items: center;
+    margin-right: 400px;
+}
+
+.carHome
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.carCategory
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem ;
+    white-space: nowrap;
+}
+
+
+
+
+.carProduct
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.carCart
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.carFeedback
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+
+}
+
+.carHome:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.carCategory:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.carProduct:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.carCart:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.carFeedback:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.carhbtn
+{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+}
+
+.carhbtn:hover{
+    background-color: #151516;
+    color:white;
+    
+}
+
+
+
+    

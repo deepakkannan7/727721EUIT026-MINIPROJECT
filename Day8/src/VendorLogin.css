@@ -1,0 +1,233 @@
+.Ltot
+{
+  height:555px;
+  width:900px;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.236);
+  margin-left: 250px;
+  border-radius: 10px;
+  border:8px solid black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.Lside
+{
+  height:550px;
+  width:540px;
+  /* border:5px solid black; */
+  float:left;
+}
+.Limg
+{
+  height:100.5%;
+  width:100%;
+  background-repeat: no-repeat;
+  border:2px solid white;
+  background-image: url("https://www.blinkco.io/wp-content/uploads/2022/02/grocery-shopping-5987164_1280.jpg");
+  background-size:cover;
+  float:left;
+}
+.Lemail
+{
+  margin-top: 25px;
+  margin-right: 50px;
+
+  font-weight: bold;
+}
+
+.Lpassword
+{
+  margin-top: 25px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.Lsubmit
+{
+  margin-top: 30px;
+  margin-right: 50px;
+  color:white;
+}
+.Lform
+{
+  margin-right: -50px;
+}
+.Lsubmitbut
+{
+  height:30px;
+  width:70px;
+  font-weight: bold;
+  border: 0px;
+  color:white;
+  background-color:#15920c;
+  margin-top: -5px;
+  
+}
+
+.Lsubmitbut:hover
+{
+  height:30px;
+  width:70px;
+  font-weight: bold;
+  color:red;
+  background-color: #15920c;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 80px;
+}
+.Lemailbox
+{
+  
+  /* border-radius: 10px; */
+  height:20px;
+  margin-top: 10px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.emailimg
+{
+    height:20px;
+    width:20px;
+    margin-left: 350px;
+    margin-top: 20px;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/3178/3178158.png');
+    background-size: cover;
+    /* float:left; */
+} 
+#Lpassbox
+{
+/* border-radius: 10px; */
+height:20px;
+margin-top: 10px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Lcontbox
+{
+
+/* border-radius: 10px; */
+height:20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Laddbox
+{
+
+/* border-radius: 10px; */
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Lvenhead{
+  color:rgb(189, 220, 14);
+  text-decoration:underline;
+  text-shadow: 2px 2px rgb(246, 66, 66);
+}
+
+.Lname1
+{
+  margin-left: -110px;
+}
+
+.Lspname1
+{
+  margin-left: -78px;
+}
+
+.Lemail1
+{
+  margin-left: -120px;
+}
+
+.Lpassword1
+{
+  margin-left: -90px;
+}
+
+.Lcontact1
+{
+  margin-left: -40px;
+}
+
+.LAddress1
+{
+  margin-left: -90px;
+}
+.Lbdy
+{
+  margin-top: -22px;
+  height:100vh;
+  background-image:url('https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Logimg{
+    height:50px;
+    width:50px;
+    /* border:1px solid black; */
+    background-image: url('https://cdn-icons-png.flaticon.com/128/2609/2609282.png');
+    background-size:cover;
+    margin-left: 490px;
+    margin-top: 30px;
+}
+.fp
+{
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.sgoo
+{
+    margin-left: 4px;
+    margin-top: 10px;
+}
+    .image-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #124354;
+        color: #fff;
+        padding: 10px 20px;
+        margin-top: 5px;
+        margin-left: -40px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .image-button img {
+        height: 20px;
+        margin-right: 10px;
+        /* margin-left: ; */
+      }
+      .or
+      {
+        margin-right:45px;
+      }
+
+      .Vbutt{
+
+        height:30px;
+        width:70px;
+        margin-left: -40px;
+        font-weight: bold;
+        border: 0px solid black;
+        color:white;
+        background-color:#15920c;
+        margin-top: -15px;
+      
+      }
+      .Vbutt:hover
+      {
+      
+        height:30px;
+        width:70px;
+        font-weight: bold;
+        color:red;
+        background-color: #15920c;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        box-shadow: 80px;
+      }
+    .Vacc
+    {
+      font-weight: bold;
+      margin-right: 30px;
+    }

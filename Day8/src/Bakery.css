@@ -1,0 +1,443 @@
+/* .baktot
+{
+    height:1700px;
+    width:1200px;
+    margin-left: 100px;
+    border:2px solid black;
+    margin-top:20px;
+    background-color: rgba(0, 255, 255, 0.56);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.bread
+{
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+}
+
+.breadimg
+{
+    height:300px;
+    width:500px;
+}
+
+.brea
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.cakes
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.cakesimg
+{
+    height:300px;
+    width:500px;
+}
+
+.cak
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.cook
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.cookimg
+{
+    height:300px;
+    width:500px;
+}
+
+.cookies
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.puff
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.puffimg
+{
+    height:300px;
+    width:500px;
+}
+
+.puffs
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.bisc
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.biscimg
+{
+    height:300px;
+    width:500px;
+}
+
+.biscuit
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+.dough
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.doughimg
+{
+    height:300px;
+    width:500px;
+}
+
+.doughnuts
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: -28px;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 50px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #17bbc4;
+}
+
+.active {
+  background-color: #770c9d;
+}
+
+  .cic1
+  {
+    height:4px;
+    width:10px;
+  }
+
+  .cart
+  {
+    height:50px;
+    width:200px;
+    background-color: rgba(0, 128, 0, 0.56);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .bakery
+  {
+    color:blue;
+    text-decoration: underline;
+    
+  }
+
+
+  .breadprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+  .cakprice
+  {
+    color:red;
+    font-weight: bold;
+
+  }
+
+
+  .cookprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+  
+
+  .puffprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+
+  .biscprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+
+  .biscprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+
+  .brea
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .cak
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .cookies
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .puffs
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .biscuit
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .doughnuts
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .cartt
+  {
+    margin-left: 25px;
+    height:30px;
+    background-color: red;
+  } */
+
+
+
+  .bakNavbarItems
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 35px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,.25);
+    width:95%;
+    height:50px;
+    border-radius: 13px;
+    background-color: red;
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+
+.baknavbar-logo
+{
+    color:aqua;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+.baknav-menu
+{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap:10px;
+    list-style: none;
+    align-items: center;
+    margin-right: 400px;
+}
+
+.bakHome
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.bakCategory
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem ;
+    white-space: nowrap;
+}
+.bakProduct
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.bakCart
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.bakFeedback
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+
+}
+
+.bakHome:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bakCategory:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bakProduct:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bakCart:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bakFeedback:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bakhbtn
+{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+}
+
+.bakhbtn:hover{
+    background-color: #151516;
+    color:white;
+    
+}
+
+.bakprobox
+{
+    margin-top: 20px;
+}
