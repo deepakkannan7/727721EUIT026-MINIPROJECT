@@ -1,0 +1,702 @@
+/* .baktot
+{
+    height:1700px;
+    width:1200px;
+    margin-left: 100px;
+    border:2px solid black;
+    margin-top:20px;
+    background-color: rgba(0, 255, 255, 0.56);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.bread
+{
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+}
+
+.breadimg
+{
+    height:300px;
+    width:500px;
+}
+
+.brea
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.cakes
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.cakesimg
+{
+    height:300px;
+    width:500px;
+}
+
+.cak
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+.cook
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.cookimg
+{
+    height:300px;
+    width:500px;
+}
+
+.cookies
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.puff
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.puffimg
+{
+    height:300px;
+    width:500px;
+}
+
+.puffs
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+.bisc
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.biscimg
+{
+    height:300px;
+    width:500px;
+}
+
+.biscuit
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+.dough
+{
+
+    height:450px;
+    width:500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    border:1px solid black;
+    float:left;
+    background-color: grey;
+
+}
+
+.doughimg
+{
+    height:300px;
+    width:500px;
+}
+
+.doughnuts
+{
+    font-weight: bold;
+    margin-top: -2px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: -28px;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 50px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #17bbc4;
+}
+
+.active {
+  background-color: #770c9d;
+}
+
+  .cic1
+  {
+    height:4px;
+    width:10px;
+  }
+
+  .cart
+  {
+    height:50px;
+    width:200px;
+    background-color: rgba(0, 128, 0, 0.56);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .bakery
+  {
+    color:blue;
+    text-decoration: underline;
+    
+  }
+
+
+  .breadprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+  .cakprice
+  {
+    color:red;
+    font-weight: bold;
+
+  }
+
+
+  .cookprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+  
+
+  .puffprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+
+  .biscprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+
+  .biscprice
+  {
+    color:red;
+    font-weight: bold;
+  }
+
+  .brea
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .cak
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .cookies
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .puffs
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .biscuit
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .doughnuts
+  {
+    color:rgb(99, 1, 149);
+    font-size: 20px;
+  }
+
+  .cartt
+  {
+    margin-left: 25px;
+    height:30px;
+    background-color: red;
+  } */
+
+
+
+  .bakNavbarItems
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 35px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,.25);
+    width:95%;
+    height:50px;
+    border-radius: 13px;
+    background-color: rgba(255, 0, 153, 0.608);
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* .bak
+{
+  height:1215px;
+  width:1100px;
+  border:1px solid black;
+  margin-left: 150px;
+  margin-top: 50px;
+} */
+
+.baknavbar-logo
+{
+    color:aqua;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+.baknav-menu
+{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap:10px;
+    list-style: none;
+    align-items: center;
+    margin-right: 400px;
+}
+
+.bakHome
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.bakCategory
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    background-color: #4cfff3;
+    transition: all 0.2s ease-in-out;
+    padding :0.7rem 1rem ;
+    white-space: nowrap;
+}
+.bakProduct
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.bakCart
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.bakFeedback
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+
+}
+
+.bakHome:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bakCategory:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bakProduct:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bakCart:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bakFeedback:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.bakhbtn
+{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+}
+
+.bakhbtn:hover{
+    background-color: #151516;
+    color:white;
+    
+}
+
+/* .bakprobox
+{
+    margin-top: 20px;
+} */
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: flex;
+  height: 210px;
+  margin-right: 1100px;
+  border-radius: 30px;
+  background-color: #f4974562;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Additional styles for arranging the dropdown items in columns */
+.dropdown-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px; /* Add some padding between columns */
+}
+
+/* Styles for the dropdown item text */
+.dropdown-column .bprofile,
+.dropdown-column .bmyacc,
+.dropdown-column .bsa,
+.dropdown-column .bset,
+.dropdown-column .blo {
+  font-size: 15px; /* Set the font size to 20px for the dropdown items */
+  color: #0b07f5; /* Customize the color of the dropdown items */
+  text-decoration: none;
+  padding: 5px 10px; /* Add some padding to each dropdown item */
+  display: block;
+}
+
+.dropdown-column .bprofile:hover,
+.dropdown-column .bmyacc:hover,
+.dropdown-column .bsa:hover,
+.dropdown-column .bset:hover,
+.dropdown-column .blo:hover {
+  /* Add hover effect if desired */
+  background-color: #12ca84;
+}
+
+
+/* Existing styles */
+
+/* Your existing CSS code goes here */
+
+
+/* Media query for medium-sized devices */
+@media screen and (max-width: 1200px) {
+  .bakNavbarItems {
+    padding: 0 20px;
+    margin-right: 0;
+  }
+  
+  .baknav-menu {
+    grid-template-columns: repeat(4, auto);
+    margin-right: 0;
+  }
+  
+  .bakprobox {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 90%;
+  }
+  
+  .bak {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+/* Media query for small devices */
+@media screen and (max-width: 768px) {
+  .bakNavbarItems {
+    padding: 0 10px;
+    margin-right: 0;
+  }
+  
+  .baknav-menu {
+    grid-template-columns: repeat(3, auto);
+    margin-right: 0;
+  }
+  
+  .bakprobox {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 90%;
+  }
+  
+  .bak {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+/* Media query for extra-small devices */
+@media screen and (max-width: 480px) {
+  .bakNavbarItems {
+    padding: 0 5px;
+    margin-right: 0;
+  }
+  
+  .baknav-menu {
+    grid-template-columns: repeat(2, auto);
+    margin-right: 0;
+  }
+  
+  .bakprobox {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 90%;
+  }
+  
+  .bak {
+    width: 90%;
+    margin-left: 5%;
+  }
+  /* Additional styles for responsiveness */
+/* Add any additional styles for responsiveness here */
+
+/* Styles for adjusting card size on small devices */
+@media screen and (max-width: 768px) {
+  .bakprobox {
+    margin-top: 30px;
+  }
+  .bak {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Styles for adjusting card size on extra-small devices */
+@media screen and (max-width: 480px) {
+  .bakprobox {
+    margin-top: 20px;
+  }
+}
+
+/* Styles for adjusting font size on small devices */
+@media screen and (max-width: 600px) {
+  .baknavbar-logo {
+    font-size: 1.8rem;
+  }
+  .baknav-menu li a {
+    font-size: 1rem;
+  }
+}
+
+/* Styles for adjusting font size on extra-small devices */
+@media screen and (max-width: 400px) {
+  .baknavbar-logo {
+    font-size: 1.6rem;
+  }
+  .baknav-menu li a {
+    font-size: 0.9rem;
+  }
+}
+
+/* Styles for adjusting column size on extra-small devices */
+@media screen and (max-width: 320px) {
+  .baknav-menu {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    margin-right: 0;
+  }
+  .bakprobox {
+    margin-left: 5px;
+  }
+}
+
+/* Additional styles for responsiveness */
+/* Add any additional styles for responsiveness here */
+
+/* Styles for adjusting navbar on small devices */
+@media screen and (max-width: 768px) {
+  .bakNavbarItems {
+    padding: 0 15px;
+  }
+  .baknav-menu {
+    margin-right: 0;
+  }
+}
+
+/* Styles for adjusting navbar on extra-small devices */
+@media screen and (max-width: 480px) {
+  .bakNavbarItems {
+    height: 60px;
+  }
+  .baknavbar-logo {
+    font-size: 1.5rem;
+  }
+  .bakmenu-icons {
+    margin-right: 15px;
+  }
+  .baknav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 153, 0.608);
+    border-radius: 13px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  .baknav-menu li {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .baknav-menu.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  .baknav-menu a {
+    padding: 0.7rem 1rem;
+  }
+  .baknav-menu a:hover {
+    background-color: #01959a;
+    color: #fbfbfb;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+/* Styles for adjusting font size on extra-small devices */
+@media screen and (max-width: 400px) {
+  .baknavbar-logo {
+    font-size: 1.3rem;
+  }
+  .baknav-menu li a {
+    font-size: 0.8rem;
+  }
+}
+
+
+}
+
+
+
+
+
