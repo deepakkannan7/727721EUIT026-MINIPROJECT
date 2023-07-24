@@ -1,0 +1,367 @@
+/* .hNavbarItems
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 35px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,.25);
+    width:95%;
+    height:50px;
+    border-radius: 13px;
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+.hnavbar-logo
+{
+    color:aqua;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+.hnav-menu
+{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap:10px;
+    list-style: none;
+    align-items: center;
+    margin-right: 400px;
+}
+
+.hHome
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.hCategory
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem ;
+    white-space: nowrap;
+}
+
+
+
+
+.hProduct
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.hCart
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.hFeedback
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+
+}
+
+.hHome:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hCategory:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hProduct:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hCart:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hFeedback:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hhbtn
+{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+}
+
+.hhbtn:hover{
+    background-color: #151516;
+    color:white;
+    
+}
+
+.slide-container
+{
+  width:1200px;
+  margin-left: 90px;
+  background-size: 100% 100%;
+  margin-top: 20px;
+}
+
+.otot
+{
+    height:700px;
+    width:1200px;
+    border:1px solid black;
+    background-color: grey;
+    margin-left: 95px;
+}
+
+.fruof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: aqua;
+    float:left;
+}
+
+
+.fruoffimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.vegof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: aqua;
+    float: left;
+}
+
+
+.vegoffimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.bevof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: aqua;
+    float:left;
+   
+}
+
+
+.bevoffimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.hdof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: aqua;
+    float:left;
+   
+}
+
+
+.hdimg
+{
+    height:200px;
+    width:300px;
+}
+
+.meatof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: aqua;
+    float:left;
+   
+}
+
+
+.meatimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.daiof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: aqua;
+    float:left;
+   
+}
+
+
+.daiimg
+{
+    height:200px;
+    width:300px;
+}
+
+.foo
+{
+    height:300px;
+    width:1200px;
+    margin-left: 95px;
+    margin-top: 30px;
+    border:1px solid black;
+    background-color: black;
+}
+.sr
+{
+    height:100px;
+    width:300px;
+   
+    margin-left: 40px;
+    float:left
+}
+
+.about
+{
+    height:100px;
+    width:300px;
+   
+    margin-left: 550px;
+    float:left;
+    margin-top: -300px;
+
+}
+
+.cont
+{
+    height:100px;
+    width:300px;
+ 
+    margin-left: 900px;
+    float:left;
+    margin-top: -300px;
+
+}
+
+.insimg
+{
+    height:20px;
+    width:20px;
+    background-size: fit;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.facimg
+{
+    height: 20px;
+    width:18px;
+    background-size: fit;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+}
+
+.fac
+{
+    margin-top: -25px;
+}
+.twiimg
+{
+    height: 20px;
+    width:18px;
+    background-size: fit;
+    background-repeat: no-repeat;
+    margin-left: -10px;
+}
+
+.twi
+{
+    margin-top: -25px;
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+}
+#lin
+{
+    color:white
+}
+.link
+{
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: -600px;
+}
+
+     */

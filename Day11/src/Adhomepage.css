@@ -1,0 +1,236 @@
+
+.adNavbarItems
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 35px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,.25);
+    width:95%;
+    height:50px;
+    border-radius: 13px;
+    background-color: rgba(255, 0, 153, 0.608);
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* .bak
+{
+  height:1215px;
+  width:1100px;
+  border:1px solid black;
+  margin-left: 150px;
+  margin-top: 50px;
+} */
+
+.adnavbar-logo
+{
+    color:aqua;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+.adnav-menu
+{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap:10px;
+    list-style: none;
+    align-items: center;
+    margin-right: 400px;
+}
+
+.adHome
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.adCategory
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    /* background-color: #4cfff3; */
+    transition: all 0.2s ease-in-out;
+    padding :0.7rem 1rem ;
+    white-space: nowrap;
+}
+.adProduct
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.adCart
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.adFeedback
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+
+}
+
+
+.adcont
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+
+.adprof
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+
+
+
+
+.adHome:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.adCategory:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.adProduct:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.adCart:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.adFeedback:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.adcont:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.adprof:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+.adhbtn
+{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+}
+
+.adhbtn:hover{
+    background-color: #151516;
+    color:white;
+    
+}
+
+.adprobox
+{
+    margin-top: 20px;
+}
+
+
+.addropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  display: flex;
+  height: 210px;
+  margin-right: 1100px;
+  border-radius: 30px;
+  background-color: #f4974562;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Additional styles for arranging the dropdown items in columns */
+.addropdown-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px; /* Add some padding between columns */
+}
+
+/* Styles for the dropdown item text */
+.addropdown-column .adbprofile,
+.addropdown-column .adbmyacc,
+.addropdown-column .adbsa,
+.addropdown-column .adbset,
+.addropdown-column .adblo {
+  font-size: 15px; /* Set the font size to 20px for the dropdown items */
+  color: #0b07f5; /* Customize the color of the dropdown items */
+  text-decoration: none;
+  padding: 5px 10px; /* Add some padding to each dropdown item */
+  display: block;
+}
+
+.addropdown-column .adbprofile:hover,
+.addropdown-column .adbmyacc:hover,
+.addropdown-column .adbsa:hover,
+.addropdown-column .adbset:hover,
+.addropdown-column .adblo:hover {
+  /* Add hover effect if desired */
+  background-color: #12ca84;
+}
+
+
+
+
