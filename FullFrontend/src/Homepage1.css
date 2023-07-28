@@ -1,0 +1,600 @@
+.hNavbarItems
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 35px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,.25);
+    width:95%;
+    height:50px;
+    border-radius: 13px;
+    background-color: rgba(255, 0, 153, 0.608);
+    position: fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+
+.hnavbar-logo
+{
+    color:aqua;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+.hnav-menu
+{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap:10px;
+    list-style: none;
+    align-items: center;
+    margin-right: 400px;
+}
+
+.hHome
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    background-color: #4cfff3;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.hCategory
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem ;
+    white-space: nowrap;
+}
+
+
+
+
+.hProduct
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.hCart
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+}
+.hFeedback
+{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+    font-size: 1.2rem;
+    font-weight:600px;
+    padding :0.7rem 1rem;
+    white-space: nowrap;
+
+}
+
+.hHome:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hCategory:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hProduct:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hCart:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hFeedback:hover{
+    background-color: #01959a;
+    color:rgb(251, 251, 251);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.hhbtn
+{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+}
+
+.hhbtn:hover{
+    background-color: #151516;
+    color:white;
+    
+}
+
+.slide-container
+{
+  width:1200px;
+  margin-left: 90px;
+  background-size: 100% 100%;
+  margin-top: 20px;
+}
+
+.otot
+{
+    height:700px;
+    width:1200px;
+    border:1px solid black;
+    background-color: grey;
+    margin-left: 95px;
+}
+
+.fruof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: aqua;
+    float:left;
+}
+
+
+.fruoffimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.vegof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: aqua;
+    float: left;
+}
+
+
+.vegoffimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.bevof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: aqua;
+    float:left;
+   
+}
+
+
+.bevoffimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.hdof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: aqua;
+    float:left;
+   
+}
+
+
+.hdimg
+{
+    height:200px;
+    width:300px;
+}
+
+.meatof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: aqua;
+    float:left;
+   
+}
+
+
+.meatimg
+{
+    height:200px;
+    width:300px;
+}
+
+
+.daiof
+{
+    
+    height:300px;
+    width:300px;
+    border:1px solid black;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: aqua;
+    float:left;
+   
+}
+
+
+.daiimg
+{
+    height:200px;
+    width:300px;
+}
+
+.foo
+{
+    height:300px;
+    width:1200px;
+    margin-left: 95px;
+    margin-top: 30px;
+    border:1px solid black;
+    background-color: black;
+}
+.sr
+{
+    height:100px;
+    width:300px;
+   
+    margin-left: 40px;
+    float:left
+}
+
+.about
+{
+    height:100px;
+    width:300px;
+   
+    margin-left: 550px;
+    float:left;
+    margin-top: -300px;
+
+}
+
+.cont
+{
+    height:100px;
+    width:300px;
+ 
+    margin-left: 900px;
+    float:left;
+    margin-top: -300px;
+
+}
+
+.insimg
+{
+    height:20px;
+    width:20px;
+    background-size: fit;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.facimg
+{
+    height: 20px;
+    width:18px;
+    background-size: fit;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+}
+
+.fac
+{
+    margin-top: -25px;
+}
+.twiimg
+{
+    height: 20px;
+    width:18px;
+    background-size: fit;
+    background-repeat: no-repeat;
+    margin-left: -10px;
+}
+
+.twi
+{
+    margin-top: -25px;
+    margin-left: 60px;
+}
+a{
+    text-decoration: none;
+}
+#lin
+{
+    color:white
+}
+.link
+{
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: -600px;
+}
+
+.hdropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: flex;
+    height: 210px;
+    margin-right: 1200px;
+    border-radius: 30px;
+    background-color: #f4974562;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Additional styles for arranging the dropdown items in columns */
+  .dropdown-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px; /* Add some padding between columns */
+  }
+  
+  /* Styles for the dropdown item text */
+  .dropdown-column .bprofile,
+  .dropdown-column .bmyacc,
+  .dropdown-column .bsa,
+  .dropdown-column .bset,
+  .dropdown-column .blo {
+    font-size: 15px; /* Set the font size to 20px for the dropdown items */
+    color: #0b07f5; /* Customize the color of the dropdown items */
+    text-decoration: none;
+    padding: 5px 10px; /* Add some padding to each dropdown item */
+    display: block;
+  }
+  
+  .dropdown-column .bprofile:hover,
+  .dropdown-column .bmyacc:hover,
+  .dropdown-column .bsa:hover,
+  .dropdown-column .bset:hover,
+  .dropdown-column .blo:hover {
+    /* Add hover effect if desired */
+    background-color: #12ca84;
+  }
+
+  @media (max-width: 768px) {
+    .hNavbarItems {
+      padding: 0 15px;
+      justify-content: space-between;
+    }
+  
+    .hnavbar-logo {
+      font-size: 1.5rem;
+    }
+  
+    .hnav-menu {
+      display: none;
+      grid-template-columns: repeat(1, auto);
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+      border-radius: 0 0 13px 13px;
+    }
+  
+    .hnav-menu.active {
+      display: grid;
+    }
+  
+    .hnav-menu li {
+      text-align: center;
+      padding: 10px 0;
+    }
+  }
+
+
+  /* Homepage1.css */
+/* ... (existing CSS code) ... */
+
+/* Styles for screens with a maximum width of 768px (mobile devices) */
+@media (max-width: 768px) {
+    .hNavbarItems {
+      padding: 0 15px;
+      justify-content: space-between;
+    }
+  
+    .hnavbar-logo {
+      font-size: 1.5rem;
+    }
+  
+    .hnav-menu {
+      display: none;
+      grid-template-columns: repeat(1, auto);
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+      border-radius: 0 0 13px 13px;
+    }
+  
+    .hnav-menu.active {
+      display: grid;
+    }
+  
+    .hnav-menu li {
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    /* Adjust styles for the slide-container on smaller screens */
+    .slide-container {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0;
+      /* height: 300px; */
+      margin-top: 50px; 
+      margin-left: 200px;
+      /* Adjust the height for mobile devices */
+    }
+  
+    .slide-container img {
+      height: 100%;
+      margin-top: 100px;
+      margin-left: 200px;
+     /* Adjust the height of the images for mobile devices */
+    }
+  
+    /* Adjust styles for the div elements containing the offers on smaller screens */
+    .otot {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 160px;
+      height:600%;
+    }
+  
+    .fruof,
+    .vegof,
+    .bevof,
+    .hdof,
+    .meatof,
+    .daiof {
+      width: 100%;
+      margin-left: 200px;
+      margin-top: 30px;
+    }
+  
+    /* ... (add additional media queries for other elements if needed) ... */
+  }
+
+  /* Homepage1.css */
+/* ... (existing CSS code) ... */
+
+/* Styles for screens with a maximum width of 768px (mobile devices) */
+/* Homepage1.css */
+/* ... (existing CSS code) ... */
+
+/* Styles for screens with a maximum width of 768px (mobile devices) */
+@media (max-width: 768px) {
+    /* Adjust styles for the footer container on smaller screens */
+    .foo {
+      display: flex;
+      flex-wrap: wrap;
+      /* justify-content: space-around; */
+      /* padding: 20px; */
+      width: 100%;
+      margin-left: -35px;
+      width:800px;
+      margin-top: 300px;
+    }
+  
+    .sr
+    {
+        margin-right: 400px;
+    }
+    .about
+    {
+        margin-left:200px;
+        margin-top: -300px;
+    }
+    .cont {
+      flex: 0 0 100%;
+      text-align: center;
+      /* margin-bottom: 20px; */
+      margin-left: 370px;
+      margin-top: -300px;
+    }
+  
+    .ins
+    {
+        margin-top: 10px;
+        margin-left: -50px;
+    }
+    .fac
+    {
+
+    }
+    .twi {
+      /* margin-top: 20px; */
+    }
+  
+    /* Adjust styles for the footer links on smaller screens */
+    .foo a {
+      color: white;
+      text-decoration: none;
+    }
+  
+    /* Adjust styles for the footer images on smaller screens */
+    .insimg,
+    .facimg,
+    .twiimg {
+      height: 20px;
+      width: 18px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin: 0 auto;
+    }
+  
+    .copy {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .link {
+      margin: 20px auto;
+    }
+  }
+  
+
+    

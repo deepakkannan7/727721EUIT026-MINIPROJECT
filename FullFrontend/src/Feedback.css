@@ -1,0 +1,451 @@
+/* Existing CSS */
+.app {
+    text-align: center;
+    margin-top: 70px
+  }
+  
+  .feedback-form {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 450px;
+    margin-top: 40px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .feebut {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .feebut:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .feebut:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .success-message button {
+    margin-top: 10px;
+  }
+  
+  /* Additional Styling */
+  /* body {
+    background-color: #f9f9f9;
+  } */
+  
+  .app {
+    font-family: Arial, sans-serif;
+  }
+  
+ .feedback {
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  .feedback-form {
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    background-color: #ffffff;
+    color: #333;
+    transition: border-color 0.2s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .error {
+    color: #dc3545;
+  }
+  
+  .feebut {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .feebut:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .feebut:hover {
+    background-color: #0056b3;
+  }
+  
+  /* New Styling for Dropdowns */
+  .form-group select {
+    appearance: none;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-group select:focus {
+    border-color: #007bff;
+  }
+  
+  .form-group select option {
+    background-color: #fff;
+    color: #333;
+  }
+
+
+
+
+  
+  .feeNavbarItems
+  {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:0px 35px;
+      box-shadow:0 5px 15px 0 rgba(0,0,0,.25);
+      width:95%;
+      height:50px;
+      margin-top: -70px;
+      border-radius: 13px;
+      background-color: rgba(255, 0, 153, 0.608);
+      position: fixed;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+  }
+  
+  
+  
+  .feenavbar-logo
+  {
+      color:aqua;
+      font-size:2rem;
+      cursor:pointer;
+  }
+  
+  .feenav-menu
+  {
+      display: grid;
+      grid-template-columns: repeat(6,auto);
+      grid-gap:10px;
+      list-style: none;
+      align-items: center;
+      margin-right: 400px;
+  }
+  
+  .feeHome
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  }
+  .feeCategory
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      /* background-color: #4cfff3; */
+      padding :0.7rem 1rem ;
+      white-space: nowrap;
+  }
+  /* .food
+  {
+    height:1220px;
+    width:1100px;
+    border:1px solid black;
+    margin-left: 150px;
+    margin-top: 50px;
+  } */
+  
+  
+  
+  .feeProduct
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  }
+  .feeCart
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  }
+  .feeFeedback
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      background-color: #4cfff3;
+      white-space: nowrap;
+  
+  }
+
+  .selected {
+    color: #ffbf00;
+    cursor: pointer;
+  }
+  
+  .feeHome:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .feeCategory:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .feeProduct:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .feeCart:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .feeFeedback:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .feehbtn
+  {
+      padding: 0.5rem 1rem;
+      white-space: nowrap;
+      border-radius: 0.3rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border:none;
+      cursor:pointer;
+  }
+  
+  .feehbtn:hover{
+      background-color: #151516;
+      color:white;
+      
+  }
+  
+  .feeprobox
+  {
+      margin-top: 20px;
+  }
+
+  .feedropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: flex;
+    height: 210px;
+    margin-right: 1200px;
+    border-radius: 30px;
+    background-color: #f4974562;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Additional styles for arranging the dropdown items in columns */
+  .dropdown-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px; /* Add some padding between columns */
+  }
+  
+  /* Styles for the dropdown item text */
+  .dropdown-column .bprofile,
+  .dropdown-column .bmyacc,
+  .dropdown-column .bsa,
+  .dropdown-column .bset,
+  .dropdown-column .blo {
+    font-size: 15px; /* Set the font size to 20px for the dropdown items */
+    color: #0b07f5; /* Customize the color of the dropdown items */
+    text-decoration: none;
+    padding: 5px 10px; /* Add some padding to each dropdown item */
+    display: block;
+  }
+  
+  .dropdown-column .bprofile:hover,
+  .dropdown-column .bmyacc:hover,
+  .dropdown-column .bsa:hover,
+  .dropdown-column .bset:hover,
+  .dropdown-column .blo:hover {
+    /* Add hover effect if desired */
+    background-color: #12ca84;
+  }
+
+  .rat
+  {
+    margin-top: 15px;
+  }
+
+
+  @media (max-width: 600px) {
+    .feedback-form {
+      max-width: 90%; /* Adjust the form width for smaller screens */
+      margin: 0 auto;
+    }
+  }
+  
+  /* Tablets */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .feedback-form {
+      max-width: 80%; /* Adjust the form width for tablet-sized screens */
+      margin: 0 auto;
+    }
+  }
+  
+  /* Larger screens */
+  @media (min-width: 1025px) {
+    .feedback-form {
+      max-width: 60%; /* Adjust the form width for larger screens */
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .NavbarItems {
+      padding: 0 15px;
+      justify-content: space-between;
+    }
+  
+    .navbar-logo {
+      font-size: 1.5rem;
+    }
+  
+    .nav-menu {
+      display: none;
+      grid-template-columns: repeat(1, auto);
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+      border-radius: 0 0 13px 13px;
+    }
+  
+    .nav-menu.active {
+      display: grid;
+    }
+  
+    .nav-menu li {
+      text-align: center;
+      padding: 10px 0;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .feeNavbarItems {
+      padding: 0 15px;
+      justify-content: space-between;
+    }
+  
+    .feenavbar-logo {
+      font-size: 1.5rem;
+    }
+  
+    .feenav-menu {
+      display: none;
+      grid-template-columns: repeat(1, auto);
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+      border-radius: 0 0 13px 13px;
+    }
+  
+    .feenav-menu.active {
+      display: grid;
+    }
+  
+    .feenav-menu li {
+      text-align: center;
+      padding: 10px 0;
+    }
+  }
+  

@@ -1,0 +1,408 @@
+/* ProductManagementPage.css */
+
+.product-management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .co {
+    font-size: 28px;
+    font-weight: bold;
+    color:blueviolet;
+    margin-top: -50px;
+  }
+  
+  .product-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  
+  
+  .icon-wrapper {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #20b4ce; /* Add a border with your desired color and thickness */
+    border-radius: 5px; /* Add border-radius to make the corners rounded */
+    width: 150px; /* Adjust the width to fit your icons and text properly */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 71, 244);
+    align-items: center;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  
+  .aicon {
+    font-size: 100px;
+    color: #3cf018;
+    margin-bottom: 10px;
+
+  }
+
+  .eicon {
+    font-size: 100px;
+    color: #ff8400;
+    margin-bottom: 10px;
+    margin-left: 30px;
+  }
+
+  .dicon {
+    font-size: 100px;
+    color: #ff0000;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .vicon {
+    font-size: 100px;
+    color: #007bff;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  
+  span {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Add gap between icons */
+  .icon-wrapper:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .ap
+  {
+    font-weight: bold;
+    color:darkred;
+    font-size: 20px;
+  }
+
+
+  .ep
+  {
+    font-weight: bold;
+    color:darkred;
+    font-size: 20px;
+  }
+
+  .dp
+  {
+    font-weight: bold;
+    color:darkred;
+    font-size: 20px;
+  }
+
+
+  .gp
+  {
+    font-weight: bold;
+    color:darkred;
+    font-size: 20px;
+  }
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .product-icons {
+      flex-wrap: wrap;
+    }
+  
+    .icon-wrapper {
+      margin: 10px;
+    }
+  }
+
+  /* @media (max-width: 768px) {
+    .ahpNavbarItems {
+      padding: 0 15px;
+      justify-content: space-between;
+    }
+  
+    .ahpnavbar-logo {
+      font-size: 1.5rem;
+    }
+  
+    .ahpnav-menu {
+      display: none;
+      grid-template-columns: repeat(1, auto);
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+      border-radius: 0 0 13px 13px;
+    }
+  
+    .ahpnav-menu.active {
+      display: grid;
+    }
+  
+    .ahpnav-menu li {
+      text-align: center;
+      padding: 10px 0;
+    }
+  } */
+
+    /* .ahpNavbarItems {
+      padding: 0 15px;
+      justify-content: space-between;
+    }
+  
+    .ahpnavbar-logo {
+      font-size: 1.5rem;
+    }
+  
+    .ahpnav-menu {
+      display: none;
+      grid-template-columns: repeat(1, auto);
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+      border-radius: 0 0 13px 13px;
+    }
+  
+    .ahpnav-menu.active {
+      display: grid;
+    }
+  
+    .ahpnav-menu li {
+      text-align: center;
+      padding: 10px 0;
+    } */
+  
+  /* @media (max-width: 768px) {
+    .ahpNavbarItems {
+      padding: 0 15px;
+      justify-content: space-between;
+    }
+  
+    .ahpnavbar-logo {
+      font-size: 1.5rem;
+    }
+  
+    .ahpnav-menu {
+      display: none;
+      grid-template-columns: repeat(1, auto);
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+      border-radius: 0 0 13px 13px;
+    }
+  
+    .ahpnav-menu.active {
+      display: grid;
+    }
+  
+    .ahpnav-menu li {
+      text-align: center;
+      padding: 10px 0;
+    }
+  } */
+  
+
+
+
+
+  .ahpNavbarItems
+  {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:0px 35px;
+      box-shadow:0 5px 15px 0 rgba(0,0,0,.25);
+      width:95%;
+      height:50px;
+ 
+      border-radius: 13px;
+      background-color: rgba(255, 0, 153, 0.608);
+      position: fixed;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+  }
+  
+  /* .bak
+  {
+    height:1215px;
+    width:1100px;
+    border:1px solid black;
+    margin-left: 150px;
+    margin-top: 50px;
+  } */
+  
+  .ahpnavbar-logo
+  {
+      color:aqua;
+      font-size:2rem;
+      cursor:pointer;
+  }
+  
+  .ahpnav-menu
+  {
+      display: grid;
+      grid-template-columns: repeat(6,auto);
+      grid-gap:10px;
+      list-style: none;
+      align-items: center;
+      margin-right: 400px;
+  }
+  
+  .ahpHome
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  }
+  /* .ahpCategory
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      background-color: #4cfff3;
+      transition: all 0.2s ease-in-out;
+      padding :0.7rem 1rem ;
+      white-space: nowrap;
+  } */
+  .ahpprof
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  }
+  .ahpcont
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  }
+  .ahpFeedback
+  {
+      text-decoration: none;
+      color:rgb(3, 3, 3);
+      font-size: 1.2rem;
+      font-weight:600px;
+      padding :0.7rem 1rem;
+      white-space: nowrap;
+  
+  }
+  
+  .ahpHome:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .ahpCategory:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .ahpProduct:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .ahpCart:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .ahpFeedback:hover{
+      background-color: #01959a;
+      color:rgb(251, 251, 251);
+      border-radius: 4px;
+      transition: all 0.2s ease-in-out;
+  }
+  
+  .ahphbtn
+  {
+      padding: 0.5rem 1rem;
+      white-space: nowrap;
+      border-radius: 0.3rem;
+      font-size: 1rem;
+      font-weight: 600;
+      border:none;
+      cursor:pointer;
+  }
+  
+  .ahphbtn:hover{
+      background-color: #151516;
+      color:white;
+      
+  }
+  
+  /* .bakprobox
+  {
+      margin-top: 20px;
+  } */
+  
+  
+  .ahpdropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: flex;
+    height: 210px;
+    margin-right: 1200px;
+    border-radius: 30px;
+    background-color: #f4974562;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Additional styles for arranging the dropdown items in columns */
+  .dropdown-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px; /* Add some padding between columns */
+  }
+  
+  /* Styles for the dropdown item text */
+  .dropdown-column .ahpprofile,
+  .dropdown-column .ahpmyacc,
+  .dropdown-column .ahpsa,
+  .dropdown-column .ahpset,
+  .dropdown-column .ahplo {
+    font-size: 10px; /* Set the font size to 20px for the dropdown items */
+    color: #0b07f5; /* Customize the color of the dropdown items */
+    text-decoration: none;
+    padding: 5px 10px; /* Add some padding to each dropdown item */
+    display: block;
+  }
+  
+  .dropdown-column .ahpprofile:hover,
+  .dropdown-column .ahpmyacc:hover,
+  .dropdown-column .ahpsa:hover,
+  .dropdown-column .ahpset:hover,
+  .dropdown-column .ahplo:hover {
+    /* Add hover effect if desired */
+    background-color: #12ca84;
+  }
+  

@@ -1,0 +1,177 @@
+.Ctot
+{
+    height:400px;
+    width:1000px;
+    border:10px solid black;
+    background-image: url('https://media.istockphoto.com/id/1424122417/photo/rectangle-neon-line-loop-purple-neon-frame-motion-rectangle-yellow-bright-pink-animation.webp?b=1&s=170667a&w=0&k=20&c=K4b0nTP7aKpiII2uMmF5aVh1HvJnMnpaKOtLW-QDU0U=');
+    margin-left: 200px;
+    box-shadow: rgba(0, 0, 243, 0.704) 0px 30px 60px -12px inset, rgba(56, 13, 198, 0.715) 0px 18px 36px -18px inset;
+    margin-top: 60px;
+}
+.Cvendor
+{
+    height:399px;
+    width:500px;
+    border:2px solid black;
+    background-color: rgba(233, 240, 240, 0.475);
+    float:left;
+    margin-top:-1px;
+}
+.Cuser
+{
+    height:399px;
+    width:495px;
+    border:2px solid black;
+    background-color: rgba(233, 240, 240, 0.453);
+    float:right;
+    margin-top: -402px;
+}
+.Cvendimg
+{
+    height:200px;
+    width:200px;
+    background-image: url('https://static.thenounproject.com/png/4306483-200.png');
+    margin-left: 150px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+.ventt{
+    text-decoration: none;
+}
+
+.Cvendtxt
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(237, 29, 29);
+}
+
+.Cuserimg
+{
+    height:200px;
+    width:200px;
+    background-image: url('https://icons-for-free.com/download-icon-users+icon-1320186917379515742_512.png');
+    margin-left: 150px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Cusertxt
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 50px;
+    color:rgb(237, 29, 29);
+}
+/* .cbdy
+{
+    height:100vh;
+    width:100vh;
+    background https://cdn-ebbla.nitrocdn.com/xUQTqazShqfcXmhsmxgkCTOzWBtHeIcT/assets/images/optimized/rev-7e232ef/wp-content/uploads/2022/03/MicrosoftTeams-image-70.jpg
+} */
+.CCbdy
+{
+   margin-top: -52px;
+  height:100.2vh;
+  background-image:url('https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.Cwru
+{
+    margin-top: 50px;
+    color:rgb(189, 220, 14);
+    text-decoration:underline;
+    text-shadow: 2px 2px rgb(246, 66, 66);
+    text-decoration:underline;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: flex;
+    height: 210px;
+    margin-right: 1100px;
+    border-radius: 30px;
+    background-color: #f4974562;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Additional styles for arranging the dropdown items in columns */
+  .dropdown-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px; /* Add some padding between columns */
+  }
+  
+  /* Styles for the dropdown item text */
+  .dropdown-column .bprofile,
+  .dropdown-column .bmyacc,
+  .dropdown-column .bsa,
+  .dropdown-column .bset,
+  .dropdown-column .blo {
+    font-size: 15px; /* Set the font size to 20px for the dropdown items */
+    color: #0b07f5; /* Customize the color of the dropdown items */
+    text-decoration: none;
+    padding: 5px 10px; /* Add some padding to each dropdown item */
+    display: block;
+  }
+  
+  .dropdown-column .bprofile:hover,
+  .dropdown-column .bmyacc:hover,
+  .dropdown-column .bsa:hover,
+  .dropdown-column .bset:hover,
+  .dropdown-column .blo:hover {
+    /* Add hover effect if desired */
+    background-color: #12ca84;
+  }
+
+  @media (max-width: 768px) {
+    .NavbarItems {
+      padding: 0 15px;
+      justify-content: space-between;
+    }
+  
+    .navbar-logo {
+      font-size: 1.5rem;
+    }
+  
+    .nav-menu {
+      display: none;
+      grid-template-columns: repeat(1, auto);
+      background-color: #f9f9f9;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+      border-radius: 0 0 13px 13px;
+    }
+  
+    .nav-menu.active {
+      display: grid;
+    }
+  
+    .nav-menu li {
+      text-align: center;
+      padding: 10px 0;
+    }
+  }

@@ -1,0 +1,104 @@
+.dform
+{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+   background-color: rgb(205, 196, 196);
+   margin-top: 100px;
+}
+/* Add CSS styles for the class names used in Adpost.jsx */
+  
+  .dd {
+    color: rgb(191, 16, 136);
+  }
+  
+
+.body2 {
+    /* Add the URL of your background image here */
+    background-image: url('https://img.freepik.com/premium-photo/empty-wood-table-top-with-supermarket-grocery-store-aisle-shelves-blurred-background_293060-20824.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 828px; /* Set the height of the body to fill the viewport */
+   margin-top: -150px;
+    font-family: Arial, sans-serif; /* Optionally set the font-family */
+  }
+  
+  .formRow2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .epid-label2 {
+    font-weight: bold;
+    min-width: 150px;
+    color: blue;
+  }
+
+  
+  .inputField2 {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 40px;
+  }
+  
+  .submitButton2 {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 100px;
+  }
+  
+  .submitButton2:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Responsive styles */
+  
+  /* For screens up to 768px width */
+  @media (max-width: 768px) {
+    .form2 {
+      max-width: 90%; /* Adjust the width for smaller screens */
+    }
+  
+    .formRow2 {
+      flex-direction: column; /* Stack labels and inputs vertically */
+      margin-bottom: 20px; /* Increase the gap between rows */
+    }
+    
+
+    .epid-label2
+
+     {
+      min-width: unset; /* Reset min-width for labels */
+      margin-bottom: 5px; /* Add some space below labels */
+    }
+  
+    .inputField2 {
+      flex: unset; /* Reset flex property for inputs */
+      width: 100%; /* Set the width of inputs to 100% */
+      margin-left: 0; /* Reset margin for inputs */
+    }
+  
+    .submitButton2 {
+      width: 100%; /* Set the width of the submit button to 100% */
+      margin-left: 0; /* Reset margin for submit button */
+    }
+  
+        body {
+          max-height: 150vh; /* Adjust the minimum height for smaller screens */
+          margin-top: 0; /* Reset margin for smaller screens */
+        }
+      
+  }
+  
